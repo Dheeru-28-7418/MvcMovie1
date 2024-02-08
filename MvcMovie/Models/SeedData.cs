@@ -25,32 +25,32 @@ public static class SeedData
                     Title = "Evil Dead",
                     ReleaseDate = DateTime.Parse("2012-02-08"),
                     Genre = "Horror",
-                    Rating = "R",
-                    Price = 7.99M
+                    Price = 7.99M,
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "Insidious",
                     ReleaseDate = DateTime.Parse("2007-01-07"),
                     Genre = "Horror",
-                    Rating = "R",
-                    Price = 8.99M
+                    Price = 8.99M,
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "Conjuring",
                     ReleaseDate = DateTime.Parse("2001-02-01"),
                     Genre = "Horror",
-                    Rating = "R",
-                    Price = 9.99M
+                    Price = 9.99M,
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "Rings",
                     ReleaseDate = DateTime.Parse("1995-02-01"),
                     Genre = "Action",
-                    Rating = "R",
-                    Price = 3.99M
+                    Price = 3.99M,
+                    Rating = "R"
                 }
             );
             context.SaveChanges();
